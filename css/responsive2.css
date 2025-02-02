@@ -320,6 +320,10 @@
 
 }
 @media (max-width: 576px) {
+
+  .discounts-cards .card {
+    height: 265px;
+}
   .about-img .img-container {
     width: 420px;
     height: 350px;
@@ -523,6 +527,16 @@
 }
 
 @media (max-width: 480px) {
+
+  .discounts-cards .card {
+    height: 225px;
+}
+
+.shopping-now {
+  width: 110px;
+  height: 38px;
+  font-size: 16px;
+}
   .about-img .img-container {
     width: 90%;
     height: auto;
@@ -790,7 +804,17 @@
     font-size: 14px;
   }
 }
+
 @media (max-width: 375px) {
+  .discounts-cards .card {
+    height: 200px;
+}
+
+.shopping-now {
+  width: 105px;
+  height: 30px;
+  font-size: 14px;
+}
   .partner-item {
     width: 120px;
     height: 120px;
@@ -871,9 +895,17 @@
 }
 
 @media (max-width: 320px) {
+
+  .discounts-cards .card {
+    height: 180px;
+}
   .my-orders-header h4, .current-orders-header h4, .orders-section-header, .details-header .order-number h4, .details-header .order-price h4, .addresses-header h4, .edit-addresses-header h4 {
     font-size: 14px;
+
+    
 }
+
+
 
 .sub-header-liniks a, .sub-header-liniks p {
   font-size: 12px;

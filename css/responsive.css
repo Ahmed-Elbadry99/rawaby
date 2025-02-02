@@ -237,6 +237,7 @@
 
   .discounts-cards .card {
     padding: 10px;
+    height: 260px;
   }
 
   .discounts-cards .card .desc {
@@ -249,6 +250,7 @@
     margin-bottom: 10px;
   }
 
+  
   .shopping-now {
     width: 135px;
     height: 46px;
@@ -627,6 +629,7 @@
   }
 
 
+
   .discounts-cards {
     flex-direction: column;
   }
@@ -634,6 +637,7 @@
   .discounts-cards .card {
     width: 100%;
     gap: 10px;
+    height: 340px;
   }
 }
 
@@ -672,6 +676,9 @@
   .discount {
     top: 70px;
     left: 315px;
+  }
+  .discounts-cards .card{
+    height: 290px;
   }
 
   .discount-precentge {
@@ -819,11 +826,11 @@
     line-height: 30px;
   }
 
-  .discounts-cards .card {
+  /* .discounts-cards .card {
     flex-direction: column;
     text-align: center;
     justify-content: center;
-  }
+  } */
 
   .shopping-now {
     margin-left: auto;
